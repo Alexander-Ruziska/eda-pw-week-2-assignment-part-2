@@ -177,6 +177,7 @@ if (mix === true) {
 
 // CODE:
 /*
+//FIX Instructions do not state to set time as a const. Change const to let. If statement reflects temp or time but instructions state temp and time. Change to &&.
 let temp = 40;
 const time = 4;
 
@@ -196,6 +197,8 @@ if (temp > 39 || time >= 4) {
 
 // CODE:
 /*
+//FIX minAge and age in the if statement should be swapped and should have greater than symbol not less than. change to if(age >= minAge)
+//Console log entries are mixed up. age is >= to minAge so first console log should be "enter" and else console log should be changed to "no entry".
 let age = 21;
 const minAge = 21;
 
